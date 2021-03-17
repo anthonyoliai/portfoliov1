@@ -37,6 +37,7 @@ const AboutScreen = () => {
             <img
               className='spinning-planet'
               src='/images/spinning-planet.svg'
+              alt='spinning-planet'
             ></img>
           </div>
         </Bounce>

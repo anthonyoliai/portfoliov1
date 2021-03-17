@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className='side-nav'>
         <div className='nav-element'>
           <LinkContainer to='/'>
-            <img src='/images/icons/home.svg'></img>
+            <img src='/images/icons/home.svg' alt='home'></img>
           </LinkContainer>
           <LinkContainer to='/'>
             <h2>Home</h2>
@@ -15,7 +15,7 @@ const NavBar = () => {
         </div>
         <div className='nav-element'>
           <LinkContainer to='/about'>
-            <img src='/images/icons/about.svg'></img>
+            <img src='/images/icons/about.svg' alt='about'></img>
           </LinkContainer>
           <LinkContainer to='/about'>
             <h2>About</h2>
@@ -23,7 +23,7 @@ const NavBar = () => {
         </div>
         <div className='nav-element'>
           <LinkContainer to='/skills'>
-            <img src='/images/icons/skills.svg'></img>
+            <img src='/images/icons/skills.svg' alt='skills'></img>
           </LinkContainer>
           <LinkContainer to='/skills'>
             <h2>Experience</h2>
@@ -31,7 +31,7 @@ const NavBar = () => {
         </div>
         <div className='nav-element'>
           <LinkContainer to='/projects'>
-            <img src='/images/icons/projects.svg'></img>
+            <img src='/images/icons/projects.svg' alt='projects'></img>
           </LinkContainer>
 
           <LinkContainer to='/projects'>
@@ -41,7 +41,7 @@ const NavBar = () => {
 
         <div className='nav-element'>
           <LinkContainer to='/contact'>
-            <img src='/images/icons/contact.svg'></img>
+            <img src='/images/icons/contact.svg' alt='contact'></img>
           </LinkContainer>
 
           <LinkContainer to='/contact'>
@@ -51,15 +51,15 @@ const NavBar = () => {
       </div>
       <div className='media-container'>
         <a href='/contact'>
-          <img src='/images/icons/footer-mail.svg'></img>
+          <img src='/images/icons/footer-mail.svg' alt='mail'></img>
         </a>
         <a href='https://www.linkedin.com/in/anthony-oliai-52315118b/'>
           {' '}
-          <img src='/images/icons/linkedin.svg'></img>
+          <img src='/images/icons/linkedin.svg' alt='linkedin'></img>
         </a>
         <a href='https://github.com/anthonyoliai'>
           {' '}
-          <img src='/images/icons/github.svg'></img>
+          <img src='/images/icons/github.svg' alt='github'></img>
         </a>
       </div>
       <div></div>

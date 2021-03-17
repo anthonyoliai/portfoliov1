@@ -29,15 +29,22 @@ const HomeScreen = () => {
           <img
             className='blue-ball floating-2'
             src='/images/blue-ball.svg'
+            alt='blue-ball'
           ></img>
           <img
             className='purple-ball floating-2'
             src='/images/purple-ball.svg'
+            alt='purple-ball'
           ></img>
-          <img className='pink-ball floating' src='/images/pink-ball.svg'></img>
+          <img
+            className='pink-ball floating'
+            src='/images/pink-ball.svg'
+            alt='pink-ball'
+          ></img>
           <img
             className='yellow-ball floating'
             src='/images/yellow-ball.svg'
+            alt='yellow-ball'
           ></img>
         </div>
       </Fade>
