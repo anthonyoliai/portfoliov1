@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, HashRouter as Router } from 'react-router-dom'
 
 import AboutScreen from './screens/AboutScreen'
 import ContactScreen from './screens/ContactScreen'
@@ -10,7 +10,7 @@ import ProjectScreen from './screens/ProjectScreen'
 
 function App() {
   return (
-    <Router basename='/portfoliov1'>
+    <Router>
       <Route path='/' exact component={HomeScreen}></Route>
       <Route path='/about' component={AboutScreen} exact></Route>
       <Route path='/skills' component={ExperienceScreen}></Route>

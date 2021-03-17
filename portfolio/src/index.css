@@ -641,6 +641,10 @@ textarea:focus {
   .nav-wrapper {
     width: 50px;
   }
+
+  .nav-element img {
+    margin: 5%;
+  }
   .side-nav {
     width: 50px;
   }

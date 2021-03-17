@@ -66,13 +66,13 @@ const NavBar = ({ active }) => {
             <img src='./images/icons/contact.svg' alt='contact'></img>
           </LinkContainer>
 
-          <LinkContainer to='/portfoliov1/contact'>
+          <LinkContainer to='/contact'>
             <h2>Contact</h2>
           </LinkContainer>
         </div>
       </div>
       <div className='media-container'>
-        <a href='/contact'>
+        <a href='/portfoliov1/#/contact'>
           <img src='./images/icons/footer-mail.svg' alt='mail'></img>
         </a>
         <a href='https://www.linkedin.com/in/anthony-oliai-52315118b/'>

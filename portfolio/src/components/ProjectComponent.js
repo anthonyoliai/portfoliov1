@@ -28,7 +28,7 @@ const ProjectComponent = ({
               </a>
             )}
             {!github && (
-              <a>
+              <a style={{ cursor: 'not-allowed' }}>
                 <img src='./images/icons/github-red.svg' alt='github-red'></img>
               </a>
             )}
@@ -42,7 +42,7 @@ const ProjectComponent = ({
               </a>
             )}
             {!demo && (
-              <a>
+              <a style={{ cursor: 'not-allowed' }}>
                 <img src='./images/icons/code-red.svg' alt='demo-red'></img>
               </a>
             )}
