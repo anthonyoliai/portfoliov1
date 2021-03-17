@@ -22,3 +22,4 @@ The template of the website can be found on https://www.figma.com/file/dLq5X69Ql
 3. npm start
 
 Images have mostly been taken from undraw.co. 
+EmailJS email system has been used.
