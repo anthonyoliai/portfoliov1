@@ -62,6 +62,7 @@ const NavBar = () => {
           <img src='/images/icons/github.svg'></img>
         </a>
       </div>
+      <div></div>
     </div>
   )
 }
