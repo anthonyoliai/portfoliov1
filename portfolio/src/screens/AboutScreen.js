@@ -36,7 +36,7 @@ const AboutScreen = () => {
           <div className='overflow'>
             <img
               className='spinning-planet'
-              src='/images/spinning-planet.svg'
+              src='./images/spinning-planet.svg'
               alt='spinning-planet'
             ></img>
           </div>

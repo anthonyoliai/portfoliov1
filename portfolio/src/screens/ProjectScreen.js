@@ -11,7 +11,7 @@ const ProjectScreen = () => {
           <ProjectComponent
             name='Veganizza'
             skills='React | Redux | MongoDB | Express.js | Node.js'
-            image='/images/veganizza-thumb.jpg'
+            image='./images/veganizza-thumb.jpg'
             demo='https://veganizza.herokuapp.com'
             github='https://github.com/anthonyoliai/Veganizza'
             description='A full-stack project I made for fun, fully functional and built from scratch. Functionalities include
@@ -22,7 +22,7 @@ const ProjectScreen = () => {
           <ProjectComponent
             name='ARJS2'
             skills='Node.js | WebRTC | WebSockets'
-            image='/images/arjs2-thumb.jpg'
+            image='./images/arjs2-thumb.jpg'
             github='https://github.com/anthonyoliai/Veganizza'
             description='While studying at the Vrije Universiteit I wrote a thesis about offloading object recognition from mobile augmented reality applications. 
             The goal was to make mobile AR applications more scalable, by running the heavy task of object recognition on a separate server. 
@@ -32,7 +32,7 @@ const ProjectScreen = () => {
           <ProjectComponent
             name='Portfolio v1'
             skills='HTML | CSS | JS | React'
-            image='/images/portfolio-thumb.jpg'
+            image='./images/portfolio-thumb.jpg'
             github='https://github.com/anthonyoliai/Veganizza'
             description='The first version of a simple portfolio I have made in my free time using mostly React. '
           ></ProjectComponent>

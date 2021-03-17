@@ -10,8 +10,8 @@ import ProjectScreen from './screens/ProjectScreen'
 
 function App() {
   return (
-    <Router>
-      <Route path='/' component={HomeScreen} exact></Route>
+    <Router basename='/portfoliov1'>
+      <Route path='/' exact component={HomeScreen}></Route>
       <Route path='/about' component={AboutScreen} exact></Route>
       <Route path='/skills' component={ExperienceScreen}></Route>
       <Route path='/contact' component={ContactScreen}></Route>
