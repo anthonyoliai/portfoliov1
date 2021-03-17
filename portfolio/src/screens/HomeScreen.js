@@ -7,7 +7,7 @@ const HomeScreen = () => {
   const history = useHistory()
   return (
     <div className='main-screen'>
-      <NavBar></NavBar>
+      <NavBar active='Home'></NavBar>
       <Fade>
         <div className='screen-body'>
           <div className='welcome-container'>

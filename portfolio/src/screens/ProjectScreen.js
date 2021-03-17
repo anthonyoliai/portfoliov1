@@ -5,7 +5,7 @@ import React from 'react'
 const ProjectScreen = () => {
   return (
     <div className='main-screen'>
-      <NavBar></NavBar>
+      <NavBar active='Projects'></NavBar>
       <div className='screen-body'>
         <div className='project-container'>
           <ProjectComponent
@@ -15,19 +15,15 @@ const ProjectScreen = () => {
             demo='https://veganizza.herokuapp.com'
             github='https://github.com/anthonyoliai/Veganizza'
             description='A full-stack project I made for fun, fully functional and built from scratch. Functionalities include
-            registering, logging in, adding items to the cart, payment, and API fetch for delivery status on order screen.
-            Fully function MongoDB database, and protection middleware using express.js. 
-            Site is not a live product! Payment system can be tested by using sandbox paypal account.'
+            authentication, a cart system, a payment system, and a fetch API for delivery status on order screen.
+            Fully functional MongoDB database, and protection middleware using express.js. Site is not live! Payment system can be tested by using a sandbox PayPal account.'
           ></ProjectComponent>
           <ProjectComponent
             name='ARJS2'
             skills='Node.js | WebRTC | WebSockets'
             image='./images/arjs2-thumb.jpg'
             github='https://github.com/anthonyoliai/Veganizza'
-            description='While studying at the Vrije Universiteit I wrote a thesis about offloading object recognition from mobile augmented reality applications. 
-            The goal was to make mobile AR applications more scalable, by running the heavy task of object recognition on a separate server. 
-            With the AR.JS library, Node.JS and WebRTC, I was able to create a peer-to-peer client to server architecture. 
-            By running multiple tests on multiple systems, and analyzing metrics such as CPU/GPU/MEM usage, a conclusion could be drawn whether offloading was effective.'
+            description='While studying at the Vrije Universiteit in Amsterdam, I wrote a thesis about offloading object recognition from mobile augmented reality applications. The goal was to make mobile AR applications more scalable, by running the heavy task of object recognition on a separate server. With the AR.JS library, Node.JS and WebRTC, I was able to create a peer-to-peer client to server architecture. By running multiple tests on multiple systems, and analyzing metrics such as CPU/GPU/MEM usage, a conclusion could be drawn whether offloading was effective.'
           ></ProjectComponent>
           <ProjectComponent
             name='Portfolio v1'

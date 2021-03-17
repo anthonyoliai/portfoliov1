@@ -30,7 +30,7 @@ const ContactScreen = () => {
   }
   return (
     <div className='main-screen'>
-      <NavBar></NavBar>
+      <NavBar active='Contact'></NavBar>
       <div className='screen-body'>
         <Fade left>
           <div className='contact-wrapper'>
@@ -40,7 +40,7 @@ const ContactScreen = () => {
               </h2>{' '}
               &nbsp;
               <h2 className='header-text' style={{ color: 'white' }}>
-                Me.
+                me.
               </h2>
             </div>
 

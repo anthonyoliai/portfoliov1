@@ -1,11 +1,15 @@
 import { LinkContainer } from 'react-router-bootstrap'
 import React from 'react'
 
-const NavBar = () => {
+const NavBar = ({ active }) => {
   return (
     <div className='nav-wrapper'>
       <div className='side-nav'>
-        <div className='nav-element'>
+        <div
+          className={
+            active === 'Home' ? 'nav-element active-header' : 'nav-element'
+          }
+        >
           <LinkContainer to='/'>
             <img src='./images/icons/home.svg' alt='home'></img>
           </LinkContainer>
@@ -13,7 +17,11 @@ const NavBar = () => {
             <h2>Home</h2>
           </LinkContainer>
         </div>
-        <div className='nav-element'>
+        <div
+          className={
+            active === 'About' ? 'nav-element active-header' : 'nav-element'
+          }
+        >
           <LinkContainer to='/about'>
             <img src='./images/icons/about.svg' alt='about'></img>
           </LinkContainer>
@@ -21,7 +29,13 @@ const NavBar = () => {
             <h2>About</h2>
           </LinkContainer>
         </div>
-        <div className='nav-element'>
+        <div
+          className={
+            active === 'Experience'
+              ? 'nav-element active-header'
+              : 'nav-element'
+          }
+        >
           <LinkContainer to='/skills'>
             <img src='./images/icons/skills.svg' alt='skills'></img>
           </LinkContainer>
@@ -29,7 +43,11 @@ const NavBar = () => {
             <h2>Experience</h2>
           </LinkContainer>
         </div>
-        <div className='nav-element'>
+        <div
+          className={
+            active === 'Projects' ? 'nav-element active-header' : 'nav-element'
+          }
+        >
           <LinkContainer to='/projects'>
             <img src='./images/icons/projects.svg' alt='projects'></img>
           </LinkContainer>
@@ -39,12 +57,16 @@ const NavBar = () => {
           </LinkContainer>
         </div>
 
-        <div className='nav-element'>
+        <div
+          className={
+            active === 'Contact' ? 'nav-element active-header' : 'nav-element'
+          }
+        >
           <LinkContainer to='/contact'>
             <img src='./images/icons/contact.svg' alt='contact'></img>
           </LinkContainer>
 
-          <LinkContainer to='/contact'>
+          <LinkContainer to='/portfoliov1/contact'>
             <h2>Contact</h2>
           </LinkContainer>
         </div>

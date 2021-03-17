@@ -6,7 +6,7 @@ import React from 'react'
 const AboutScreen = () => {
   return (
     <div className='main-screen'>
-      <NavBar></NavBar>
+      <NavBar active='About'></NavBar>
       <div className='screen-body'>
         <Fade left>
           <div className='about-container'>
@@ -20,10 +20,10 @@ const AboutScreen = () => {
                 Amsterdam.
               </p>
               <p>
-                Always eager to learn about the newest technologies accross the
+                Always eager to learn about the newest technologies across the
                 stack. Independent, organised and a problem solver. Avid
                 believer of Blockchain technology, smart contracts, and
-                decentralized finance. Currently doing voluntary work for
+                decentralised finance. Currently doing voluntary work for
                 Cryptocurrency projects, such as the Token Engineering Commons
                 and 1Hive.{' '}
               </p>

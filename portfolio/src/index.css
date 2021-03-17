@@ -160,6 +160,15 @@ h2:hover {
     brightness(102%) contrast(103%);
 }
 
+.active-header h2 {
+  color: #6c63ff;
+}
+
+.active-header img {
+  filter: invert(67%) sepia(46%) saturate(1814%) hue-rotate(219deg)
+    brightness(102%) contrast(103%);
+}
+
 .nav-element:hover h2 {
   color: #6c63ff;
 }
@@ -192,6 +201,8 @@ h2:hover {
   cursor: pointer;
 }
 
+.side-nav h2:active {
+}
 .side-nav h2:hover {
   animation: none;
 }
@@ -361,6 +372,7 @@ button:hover {
 }
 .rb-container {
   margin-left: 6rem;
+  margin-right: 2rem;
 }
 
 .rb-container ul.rb {
@@ -523,6 +535,11 @@ textarea {
   height: 10%;
   resize: none;
   transition: border-bottom 0.2s linear;
+}
+
+textarea::placeholder {
+  padding-left: 1rem !important;
+  padding-top: 0.5rem !important;
 }
 
 textarea:focus {

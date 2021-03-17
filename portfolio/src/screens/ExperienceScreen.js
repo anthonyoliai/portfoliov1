@@ -6,15 +6,16 @@ import React from 'react'
 const ExperienceScreen = () => {
   return (
     <div className='main-screen'>
-      <NavBar></NavBar>
+      <NavBar active='Experience'></NavBar>
       <div className='screen-body'>
         <div className='experience-container'>
           <Fade left>
             <div className='experience-text-wrapper'>
               <h2 style={{ color: '#E83E7B' }}>Skills</h2> &nbsp;
               <h2 style={{ color: 'white' }}>&</h2> &nbsp;
-              <h2 style={{ color: '#E83E7B' }}>experience</h2>
-              <h2 style={{ color: 'white' }}>.</h2>
+              <h2 style={{ color: '#E83E7B' }}>
+                experience <span style={{ color: 'white' }}>.</span>
+              </h2>
               <div className='experience-text'>
                 <h3 style={{ color: '#E83E7B' }}>Front-end</h3>
                 <p>HTML/CSS | JavaScript | React | Redux | Bootstrap</p>
