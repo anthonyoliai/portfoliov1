@@ -15,7 +15,7 @@ const BasicTimeLine = () => {
         <li className='rb-item' ng-repeat='itembx'>
           <div className='timestamp'>Oct. 2020 - Jan. 2020</div>
           <div className='item-title'>
-            Full-stack contributor at{' '}
+            Front-end contributor at{' '}
             <a href='https://tecommons.medium.com/'>
               Token Engineering Commons
             </a>

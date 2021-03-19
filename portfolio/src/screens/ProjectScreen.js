@@ -29,6 +29,7 @@ const ProjectScreen = () => {
             name='Portfolio v1'
             skills='HTML | CSS | JS | React'
             image='./images/portfolio-thumb.jpg'
+            demo='https://anthonyoliai.github.io/portfoliov1/'
             github='https://github.com/anthonyoliai/Veganizza'
             description='The first version of a simple portfolio I have made in my free time using mostly React. '
           ></ProjectComponent>

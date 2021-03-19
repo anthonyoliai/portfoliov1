@@ -27,7 +27,9 @@ const AboutScreen = () => {
                 Cryptocurrency projects, such as the Token Engineering Commons
                 and 1Hive.{' '}
               </p>
-              <button>Download CV</button>
+              <a href='https://drive.google.com/file/d/1JXC4G-ON0GDLuf5ntf8m_x3-iiqHbOUi/view?usp=sharing'>
+                <button>View CV</button>
+              </a>
             </div>
           </div>
         </Fade>

@@ -601,8 +601,8 @@ textarea:focus {
 }
 
 .filter:hover {
-  filter: invert(86%) sepia(83%) saturate(6204%) hue-rotate(319deg)
-    brightness(100%) contrast(88%);
+  filter: invert(67%) sepia(46%) saturate(1814%) hue-rotate(219deg)
+    brightness(102%) contrast(103%);
   opacity: 1;
 }
 
