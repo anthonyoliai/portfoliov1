@@ -4,6 +4,7 @@ First version of Anthony Oliai's portfolio, created with React. React Reveal has
 
 Most of the website has been designed using Figma. 
 The template of the website can be found on https://www.figma.com/file/dLq5X69QlxkauqO0DCdF62/Portfolio?node-id=0%3A1
+EmailJS has been used for with the contact form.
 
 # :open_file_folder: File structure 
 
@@ -20,6 +21,5 @@ The template of the website can be found on https://www.figma.com/file/dLq5X69Ql
 1. npm install
 2. Adjust image paths in order for images to load
 3. npm start
-
+4. npm run deploy in the case the portfolio is to be uploaded onto github pages.
 Images have mostly been taken from undraw.co. 
-EmailJS email system has been used.
